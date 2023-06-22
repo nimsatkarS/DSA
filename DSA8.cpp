@@ -1,32 +1,49 @@
-//*******************BUBBLE SORTS****************
-#include<iostream>
+//*****************STACK & HEAP****************
+//******HEAP*****
+/*#include<iostream>
 using namespace std;
 
 int main(){
-int n;
-cin>>n;
+int a = 10;
+int*p = new int();
+*p = 10;
+delete(p);
+p=new int[4];
+delete[]p;
 
-int arr[n];
-for (int i = 0; i <n; i++)
-{
- cin>>arr[i];
+p=NULL;
+return 0;
+}*/
+
+//*****STACK*****
+/*#include<iostream>
+using namespace std;
+int add(int num1, int num2){
+    return num1 + num2;
 }
-int counter =  1;
-while(counter<n ){
-for (int i = 0; i <n-counter; i++){
-if(arr[i]>arr[i+1]){
-        int temp=arr[i];
-        arr[i]=arr[i+1];
-        arr[i+1]=temp;
+int main(){
+int a=2;
+int b=3; 
+
+int sum = add(a,b);
+cout<<sum<<endl;
+return 0;
 }
-}    
-counter++;
-}
-for(int i=0; i<n; i++){
-    cout<<arr[i]<<"";
-}cout<<endl;
+*/
+//*****STACK2*****
 
+#include<iostream>
+using namespace std;
 
+void func1(){ }
+void func2(){ }
+void func3(){ }
+void func4(){ }
+int main(){
 
+func1();
+func2();
+func3();
+func4();
 return 0;
 }
